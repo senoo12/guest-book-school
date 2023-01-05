@@ -1,0 +1,7 @@
+version: "3"
+services:
+  php-fpm:
+    build: install/php-fpm
+    ports:
+      -9010:9000
+    
